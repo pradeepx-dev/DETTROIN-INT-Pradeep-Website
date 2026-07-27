@@ -1,11 +1,11 @@
 import PageBanner from '../../components/shared/PageBanner'
 import SectionHeading from '../../components/shared/SectionHeading'
 import { Link } from 'react-router-dom'
-import { CheckCircle, ArrowRight, Microchip, FlaskConical, Globe, Brain } from 'lucide-react'
+import { ArrowRight, Cpu, FlaskConical, Globe, Brain } from 'lucide-react'
 
 const highlights = [
   { icon: <FlaskConical className="text-gold" size={24} />, title: 'Practical Science Labs', desc: 'Hands-on experiments in Physics, Chemistry, and Biology to foster scientific temper.' },
-  { icon: <Microchip className="text-blue-500" size={24} />, title: 'Advanced Computer Lab', desc: 'Coding basics, IT skills, and safe digital practices for future tech readiness.' },
+  { icon: <Cpu className="text-blue-500" size={24} />, title: 'Advanced Computer Lab', desc: 'Coding basics, IT skills, and safe digital practices for future tech readiness.' },
   { icon: <Brain className="text-purple-500" size={24} />, title: 'Analytical & Critical Thinking', desc: 'Encouraging inquiry, problem solving, debates, and independent research.' },
   { icon: <Globe className="text-primary" size={24} />, title: 'Global Perspectives', desc: 'Developing awareness of contemporary world issues, social sciences, and ethics.' },
 ]
